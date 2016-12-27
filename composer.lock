@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "b8bc63a7b038ff48fc4f7481e33e8247",
-    "content-hash": "a08b6da399a0cb4e955a926c853387f3",
+    "hash": "64e3f8e51e9cac9dcd834eb84701a559",
+    "content-hash": "fd8e8be8533f53fa4a054bfc4bc36494",
     "packages": [
         {
             "name": "classpreloader/classpreloader",
@@ -163,16 +163,16 @@
         },
         {
             "name": "filp/whoops",
-            "version": "2.1.4",
+            "version": "2.1.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/filp/whoops.git",
-                "reference": "3f5cbd0e6a2fc17bc40b0238025ef1ff4c8c3efa"
+                "reference": "2abce9d956589122c6443d6265f01cf7e9388e3c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/filp/whoops/zipball/3f5cbd0e6a2fc17bc40b0238025ef1ff4c8c3efa",
-                "reference": "3f5cbd0e6a2fc17bc40b0238025ef1ff4c8c3efa",
+                "url": "https://api.github.com/repos/filp/whoops/zipball/2abce9d956589122c6443d6265f01cf7e9388e3c",
+                "reference": "2abce9d956589122c6443d6265f01cf7e9388e3c",
                 "shasum": ""
             },
             "require": {
@@ -219,7 +219,7 @@
                 "whoops",
                 "zf2"
             ],
-            "time": "2016-10-11 15:32:23"
+            "time": "2016-12-26 16:13:31"
         },
         {
             "name": "jakub-onderka/php-console-color",
@@ -799,16 +799,16 @@
         },
         {
             "name": "oveland/placetopay",
-            "version": "1.1",
+            "version": "1.2.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/oveland/placetopay.git",
-                "reference": "69504c2b5caae43319eb7b7f9ba3ed6a8766ac26"
+                "reference": "ed10ff39d402f8c1a406fd5400e9557333496f52"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/oveland/placetopay/zipball/69504c2b5caae43319eb7b7f9ba3ed6a8766ac26",
-                "reference": "69504c2b5caae43319eb7b7f9ba3ed6a8766ac26",
+                "url": "https://api.github.com/repos/oveland/placetopay/zipball/ed10ff39d402f8c1a406fd5400e9557333496f52",
+                "reference": "ed10ff39d402f8c1a406fd5400e9557333496f52",
                 "shasum": ""
             },
             "require": {
@@ -836,7 +836,7 @@
                 }
             ],
             "description": "PHP library to make a basic test pay with PlaceToPay",
-            "time": "2016-12-26 08:35:26"
+            "time": "2016-12-27 09:12:06"
         },
         {
             "name": "paragonie/random_compat",
@@ -3648,7 +3648,8 @@
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": {
-        "php": ">=5.6.4"
+        "php": ">=5.6.4",
+        "ext-soap": "*"
     },
     "platform-dev": []
 }
