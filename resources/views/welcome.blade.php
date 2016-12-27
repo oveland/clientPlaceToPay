@@ -13,5 +13,10 @@
                 Make a test Payment
             </a>
         </div>
+        <div class="card-block" style="font-size: 120%">
+            <a href="{{ route('transactions')  }}" class="card-link">
+                View all transactions
+            </a>
+        </div>
     </div>
 @endsection

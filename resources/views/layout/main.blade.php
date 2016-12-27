@@ -77,7 +77,7 @@
         }
 
         .body-content{
-            height: 80vh !important;
+            height: 70vh !important;
         }
         i{
             margin-left: 5px;
@@ -103,9 +103,15 @@
     </div>
 </div>
 
-<footer>
+<footer class="col-md-6 col-md-offset-3">
     <div class="links text-center">
         <a href="https://github.com/oveland/clientPlaceToPay" class="text-">View Source in Github</a>
+    </div>
+    <hr>
+    <div class="text-center">
+        By <a href="https://www.linkedin.com/in/oscar-vel%C3%A1squez-750519b6/">
+            Oscar Iván Velásquez @ December - 2016
+        </a>
     </div>
     <hr>
 </footer>

@@ -1,3 +1,9 @@
+## Laravel Client Place to Pay
+This is a Laravel app that implements oveland/placetopay library
+
+Please try the [Live Demo](https://oveland.herokuapp.com/). 
+
+##
 <p align="center"><a href="https://laravel.com" target="_blank"><img width="150"src="https://laravel.com/laravel.png"></a></p>
 
 <p align="center">

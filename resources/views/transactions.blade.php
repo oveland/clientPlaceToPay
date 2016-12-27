@@ -19,5 +19,6 @@
                 Make a new test Payment
             </a>
         </div>
+
     </div>
 @endsection
