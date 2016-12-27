@@ -11,5 +11,8 @@
 |
 */
 
-Route::get('/', 'MainController@index')->name('transaction');
-Route::get('/info/{id}', 'MainController@info')->name('info');
+Route::get('/', 'MainController@index')->name('welcome');
+Route::get('/payment', 'MainController@payment')->name('payment');
+Route::post('/pay', 'MainController@pay')->name('pay');
+Route::get('/transactions', 'MainController@transactionList')->name('transactions');
+Route::get('/transaction/{reference}', 'MainController@transactionInformation')->name('transaction');
