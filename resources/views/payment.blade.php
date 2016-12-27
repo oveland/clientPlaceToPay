@@ -20,6 +20,12 @@
         </div>
     </form>
 
+    <div class="card-block" style="font-size: 120%;">
+        <a href="{{ route('transactions')  }}" class="card-link">
+            View all transactions
+        </a>
+    </div>
+
     <script type="application/javascript">
         $(document).ready(function () {
             $('#wizardPayment').wizard();
