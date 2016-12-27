@@ -47,7 +47,7 @@ class MainController extends Controller
         $reference = 'oveland-' . rand(99, 99999999);
         $params = $request->all();
 
-        $params['bank']['returnURL'] = 'http://localhost:8000/transaction/' . $reference;
+        $params['bank']['returnURL'] = 'http://oveland.herokuapp.com/transaction/' . $reference;
         $params['bank']['reference'] = $reference;
         $params['bank']['description'] = 'Pago Básico Oveland';
         $params['bank']['language'] = 'ES';
